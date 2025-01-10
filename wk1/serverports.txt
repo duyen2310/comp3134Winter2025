@@ -1,0 +1,30 @@
+1. What is the definition of server port?
+
+A server port is a specific numerical identifier used by a server to differentiate between various types of network services. It acts as a gateway for network traffic, allowing data to be routed to the correct application or service on a server.
+
+2. What is server port range?
+
+The server port range refers to the range of port numbers available for use by servers to establish network connections. There are three main ranges:
+
+Well-known ports (0-1023): These are reserved for well-known protocols such as HTTP (80) and FTP (21).
+Registered ports (1024-49151): These ports are assigned for specific services and applications by IANA (Internet Assigned Numbers Authority).
+Dynamic or Private ports (49152-65535): These are used for ephemeral or temporary connections that are often created dynamically by client applications.
+
+3. How many bits does the number above represent?
+
+Port numbers are represented by a 16-bit integer, which means the number range can go from 0 to 65535 (2^16 - 1).
+
+4. State 10 common server ports
+
+Here are 10 common server ports:
+
+Port 20 – FTP Data Transfer
+Port 21 – FTP Control (File Transfer Protocol)
+Port 22 – SSH (Secure Shell)
+Port 23 – Telnet (Unencrypted text communication)
+Port 25 – SMTP (Simple Mail Transfer Protocol)
+Port 53 – DNS (Domain Name System)
+Port 80 – HTTP (Hypertext Transfer Protocol)
+Port 443 – HTTPS (Hypertext Transfer Protocol Secure)
+Port 3306 – MySQL Database
+Port 3389 – RDP (Remote Desktop Protocol)
