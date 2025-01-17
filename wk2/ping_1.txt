@@ -1,0 +1,12 @@
+root@comp3143Winter2025:~# ping google.com -w 5
+PING google.com (142.251.33.174) 56(84) bytes of data.
+64 bytes from yyz10s17-in-f14.1e100.net (142.251.33.174): icmp_seq=1 ttl=59 time=2.63 ms
+64 bytes from yyz10s17-in-f14.1e100.net (142.251.33.174): icmp_seq=2 ttl=59 time=1.22 ms
+64 bytes from yyz10s17-in-f14.1e100.net (142.251.33.174): icmp_seq=3 ttl=59 time=1.14 ms
+64 bytes from yyz10s17-in-f14.1e100.net (142.251.33.174): icmp_seq=4 ttl=59 time=1.20 ms
+64 bytes from yyz10s17-in-f14.1e100.net (142.251.33.174): icmp_seq=5 ttl=59 time=1.19 ms
+
+--- google.com ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4007ms
+rtt min/avg/max/mdev = 1.144/1.476/2.628/0.576 ms
+root@comp3143Winter2025:~# 

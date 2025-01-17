@@ -1,0 +1,67 @@
+root@comp3143Winter2025:~# nmap --version
+Nmap version 7.80 ( https://nmap.org )
+Platform: x86_64-pc-linux-gnu
+Compiled with: liblua-5.3.6 openssl-3.0.2 nmap-libssh2-1.8.2 libz-1.2.11 libpcre-8.45 libpcap-1.10.1 nmap-libdnet-1.12 ipv6
+Compiled without:
+Available nsock engines: epoll poll select
+root@comp3143Winter2025:~# nmap youtube.com
+Starting Nmap 7.80 ( https://nmap.org ) at 2025-01-17 19:25 UTC
+Nmap scan report for youtube.com (172.217.165.14)
+Host is up (0.0025s latency).
+Other addresses for youtube.com (not scanned): 2607:f8b0:400b:802::200e
+rDNS record for 172.217.165.14: yyz12s06-in-f14.1e100.net
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+
+
+
+
+root@comp3143Winter2025:~# nmap -p 1010 youtube.com
+Starting Nmap 7.80 ( https://nmap.org ) at 2025-01-17 19:25 UTC
+Nmap scan report for youtube.com (172.217.165.14)
+Host is up (0.0027s latency).
+Other addresses for youtube.com (not scanned): 2607:f8b0:400b:802::200e
+rDNS record for 172.217.165.14: yyz12s06-in-f14.1e100.net
+
+PORT     STATE    SERVICE
+1010/tcp filtered surf
+
+Nmap done: 1 IP address (1 host up) scanned in 0.25 seconds
+root@comp3143Winter2025:~# 
+
+
+
+
+
+root@comp3143Winter2025:~# nmap -p 1000-2000 youtube.com
+Starting Nmap 7.80 ( https://nmap.org ) at 2025-01-17 19:26 UTC
+Nmap scan report for youtube.com (172.217.165.14)
+Host is up (0.0025s latency).
+Other addresses for youtube.com (not scanned): 2607:f8b0:400b:802::200e
+rDNS record for 172.217.165.14: yyz12s06-in-f14.1e100.net
+All 1001 scanned ports on youtube.com (172.217.165.14) are filtered
+
+Nmap done: 1 IP address (1 host up) scanned in 21.29 seconds
+root@comp3143Winter2025:~# 
+
+
+
+
+
+
+root@comp3143Winter2025:~# nmap -F youtube.com
+Starting Nmap 7.80 ( https://nmap.org ) at 2025-01-17 19:27 UTC
+Nmap scan report for youtube.com (172.217.165.14)
+Host is up (0.0023s latency).
+Other addresses for youtube.com (not scanned): 2607:f8b0:400b:802::200e
+rDNS record for 172.217.165.14: yyz12s06-in-f14.1e100.net
+Not shown: 98 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap done: 1 IP address (1 host up) scanned in 2.06 seconds
+root@comp3143Winter2025:~# 
