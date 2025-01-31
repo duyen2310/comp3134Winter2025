@@ -1,0 +1,23 @@
+root@comp3143Winter2025:~# tcpdump -w 0001.pcap -i eth0
+tcpdump: listening on eth0, link-type EN10MB (Ethernet), snapshot length 262144 bytes
+^C114 packets captured
+116 packets received by filter
+0 packets dropped by kernel
+root@comp3143Winter2025:~# 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

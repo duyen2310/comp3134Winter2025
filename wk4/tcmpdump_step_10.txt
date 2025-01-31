@@ -1,0 +1,147 @@
+root@comp3143Winter2025:~# tcpdump -i eth0 port 22
+tcpdump: verbose output suppressed, use -v[v]... for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), snapshot length 262144 bytes
+20:53:10.362052 IP comp3143Winter2025.ssh > 45.145.155.4.31281: Flags [P.], seq 676103094:676103202, ack 3992153373, win 501, length 108
+20:53:10.362110 IP comp3143Winter2025.ssh > 45.145.155.4.31281: Flags [P.], seq 108:144, ack 1, win 501, length 36
+20:53:10.362162 IP comp3143Winter2025.ssh > 45.145.155.4.31281: Flags [P.], seq 144:196, ack 1, win 501, length 52
+20:53:10.362279 IP comp3143Winter2025.ssh > 45.145.155.4.31281: Flags [P.], seq 196:264, ack 1, win 501, length 68
+20:53:10.362342 IP comp3143Winter2025.ssh > 45.145.155.4.31281: Flags [P.], seq 264:368, ack 1, win 501, length 104
+20:53:10.470720 IP comp3143Winter2025.ssh > 45.145.155.4.31281: Flags [P.], seq 368:540, ack 1, win 501, length 172
+20:53:10.470800 IP comp3143Winter2025.ssh > 45.145.155.4.31281: Flags [P.], seq 540:576, ack 1, win 501, length 36
+20:53:10.470852 IP comp3143Winter2025.ssh > 45.145.155.4.31281: Flags [P.], seq 576:724, ack 1, win 501, length 148
+20:53:10.470884 IP comp3143Winter2025.ssh > 45.145.155.4.31281: Flags [P.], seq 724:760, ack 1, win 501, length 36
+20:53:10.590374 IP 45.145.155.4.31281 > comp3143Winter2025.ssh: Flags [.], ack 0, win 15358, length 0
+20:53:10.590461 IP comp3143Winter2025.ssh > 45.145.155.4.31281: Flags [P.], seq 760:2072, ack 1, win 501, length 1312
+20:53:10.592359 IP 45.145.155.4.31281 > comp3143Winter2025.ssh: Flags [.], ack 108, win 15358, length 0
+20:53:10.592359 IP 45.145.155.4.31281 > comp3143Winter2025.ssh: Flags [.], ack 144, win 15358, length 0
+20:53:10.592402 IP 45.145.155.4.31281 > comp3143Winter2025.ssh: Flags [.], ack 196, win 15358, length 0
+20:53:10.592402 IP 45.145.155.4.31281 > comp3143Winter2025.ssh: Flags [.], ack 264, win 15358, length 0
+20:53:10.592425 IP 45.145.155.4.31281 > comp3143Winter2025.ssh: Flags [.], ack 368, win 15358, length 0
+20:53:10.670792 IP comp3143Winter2025.ssh > 45.145.155.4.31281: Flags [P.], seq 2072:2212, ack 1, win 501, length 140
+20:53:10.670912 IP comp3143Winter2025.ssh > 45.145.155.4.31281: Flags [P.], seq 2212:2248, ack 1, win 501, length 36
+20:53:10.670957 IP comp3143Winter2025.ssh > 45.145.155.4.31281: Flags [P.], seq 2248:2404, ack 1, win 501, length 156
+20:53:10.670991 IP comp3143Winter2025.ssh > 45.145.155.4.31281: Flags [P.], seq 2404:2440, ack 1, win 501, length 36
+20:53:10.671036 IP comp3143Winter2025.ssh > 45.145.155.4.31281: Flags [P.], seq 2440:2580, ack 1, win 501, length 140
+20:53:10.671069 IP comp3143Winter2025.ssh > 45.145.155.4.31281: Flags [P.], seq 2580:2616, ack 1, win 501, length 36
+20:53:10.671113 IP comp3143Winter2025.ssh > 45.145.155.4.31281: Flags [P.], seq 2616:2756, ack 1, win 501, length 140
+20:53:10.671147 IP comp3143Winter2025.ssh > 45.145.155.4.31281: Flags [P.], seq 2756:2792, ack 1, win 501, length 36
+20:53:10.671189 IP comp3143Winter2025.ssh > 45.145.155.4.31281: Flags [P.], seq 2792:2932, ack 1, win 501, length 140
+20:53:10.702788 IP 45.145.155.4.31281 > comp3143Winter2025.ssh: Flags [.], ack 540, win 15358, length 0
+20:53:10.702789 IP 45.145.155.4.31281 > comp3143Winter2025.ssh: Flags [.], ack 576, win 15358, length 0
+20:53:10.702789 IP 45.145.155.4.31281 > comp3143Winter2025.ssh: Flags [.], ack 724, win 15358, length 0
+20:53:10.702789 IP 45.145.155.4.31281 > comp3143Winter2025.ssh: Flags [.], ack 760, win 15358, length 0
+20:53:10.702857 IP comp3143Winter2025.ssh > 45.145.155.4.31281: Flags [P.], seq 2932:3320, ack 1, win 501, length 388
+20:53:10.774766 IP comp3143Winter2025.ssh > 45.145.155.4.31281: Flags [P.], seq 3320:3476, ack 1, win 501, length 156
+20:53:10.774879 IP comp3143Winter2025.ssh > 45.145.155.4.31281: Flags [P.], seq 3476:3512, ack 1, win 501, length 36
+20:53:10.774937 IP comp3143Winter2025.ssh > 45.145.155.4.31281: Flags [P.], seq 3512:3668, ack 1, win 501, length 156
+20:53:10.774975 IP comp3143Winter2025.ssh > 45.145.155.4.31281: Flags [P.], seq 3668:3704, ack 1, win 501, length 36
+20:53:10.775017 IP comp3143Winter2025.ssh > 45.145.155.4.31281: Flags [P.], seq 3704:3860, ack 1, win 501, length 156
+20:53:10.818454 IP 45.145.155.4.31281 > comp3143Winter2025.ssh: Flags [.], ack 2072, win 15358, length 0
+20:53:10.818516 IP comp3143Winter2025.ssh > 45.145.155.4.31281: Flags [.], seq 3860:5320, ack 1, win 501, length 1460
+20:53:10.899181 IP 45.145.155.4.31281 > comp3143Winter2025.ssh: Flags [.], ack 2212, win 15358, length 0
+20:53:10.899181 IP 45.145.155.4.31281 > comp3143Winter2025.ssh: Flags [.], ack 2248, win 15358, length 0
+20:53:10.899386 IP comp3143Winter2025.ssh > 45.145.155.4.31281: Flags [P.], seq 5320:7272, ack 1, win 501, length 1952
+20:53:10.899424 IP 45.145.155.4.31281 > comp3143Winter2025.ssh: Flags [.], ack 2404, win 15358, length 0
+20:53:10.899424 IP 45.145.155.4.31281 > comp3143Winter2025.ssh: Flags [.], ack 2440, win 15358, length 0
+20:53:10.899424 IP 45.145.155.4.31281 > comp3143Winter2025.ssh: Flags [.], ack 2580, win 15358, length 0
+20:53:10.899424 IP 45.145.155.4.31281 > comp3143Winter2025.ssh: Flags [.], ack 2616, win 15358, length 0
+20:53:10.899424 IP 45.145.155.4.31281 > comp3143Winter2025.ssh: Flags [.], ack 2792, win 15358, length 0
+20:53:10.899455 IP 45.145.155.4.31281 > comp3143Winter2025.ssh: Flags [.], ack 2932, win 15358, length 0
+20:53:10.931426 IP 45.145.155.4.31281 > comp3143Winter2025.ssh: Flags [.], ack 3320, win 15358, length 0
+20:53:10.982749 IP comp3143Winter2025.ssh > 45.145.155.4.31281: Flags [P.], seq 7272:8380, ack 1, win 501, length 1108
+20:53:11.003599 IP 45.145.155.4.31281 > comp3143Winter2025.ssh: Flags [.], ack 3668, win 15358, length 0
+20:53:11.003765 IP 45.145.155.4.31281 > comp3143Winter2025.ssh: Flags [.], ack 3704, win 15358, length 0
+20:53:11.004124 IP 45.145.155.4.31281 > comp3143Winter2025.ssh: Flags [.], ack 3860, win 15358, length 0
+20:53:11.086801 IP comp3143Winter2025.ssh > 45.145.155.4.31281: Flags [P.], seq 8380:8856, ack 1, win 501, length 476
+20:53:11.089200 IP 45.145.155.4.31281 > comp3143Winter2025.ssh: Flags [.], ack 5320, win 15358, length 0
+20:53:11.131709 IP 45.145.155.4.31281 > comp3143Winter2025.ssh: Flags [.], ack 7272, win 15358, length 0
+20:53:11.190762 IP comp3143Winter2025.ssh > 45.145.155.4.31281: Flags [P.], seq 8856:9228, ack 1, win 501, length 372
+20:53:11.210747 IP 45.145.155.4.31281 > comp3143Winter2025.ssh: Flags [.], ack 8380, win 15358, length 0
+20:53:11.294796 IP comp3143Winter2025.ssh > 45.145.155.4.31281: Flags [P.], seq 9228:9488, ack 1, win 501, length 260
+20:53:11.315382 IP 45.145.155.4.31281 > comp3143Winter2025.ssh: Flags [.], ack 8856, win 15358, length 0
+20:53:11.398753 IP comp3143Winter2025.ssh > 45.145.155.4.31281: Flags [P.], seq 9488:9748, ack 1, win 501, length 260
+20:53:11.420811 IP 45.145.155.4.31281 > comp3143Winter2025.ssh: Flags [.], ack 9228, win 15358, length 0
+20:53:11.502827 IP comp3143Winter2025.ssh > 45.145.155.4.31281: Flags [P.], seq 9748:10008, ack 1, win 501, length 260
+20:53:11.523180 IP 45.145.155.4.31281 > comp3143Winter2025.ssh: Flags [.], ack 9488, win 15358, length 0
+20:53:11.606765 IP comp3143Winter2025.ssh > 45.145.155.4.31281: Flags [P.], seq 10008:10268, ack 1, win 501, length 260
+20:53:11.626929 IP 45.145.155.4.31281 > comp3143Winter2025.ssh: Flags [.], ack 9748, win 15358, length 0
+20:53:11.710787 IP comp3143Winter2025.ssh > 45.145.155.4.31281: Flags [P.], seq 10268:10536, ack 1, win 501, length 268
+20:53:11.734681 IP 45.145.155.4.31281 > comp3143Winter2025.ssh: Flags [.], ack 10008, win 15358, length 0
+20:53:11.814759 IP comp3143Winter2025.ssh > 45.145.155.4.31281: Flags [P.], seq 10536:10804, ack 1, win 501, length 268
+20:53:11.834900 IP 45.145.155.4.31281 > comp3143Winter2025.ssh: Flags [.], ack 10268, win 15358, length 0
+20:53:11.918756 IP comp3143Winter2025.ssh > 45.145.155.4.31281: Flags [P.], seq 10804:11072, ack 1, win 501, length 268
+20:53:11.938863 IP 45.145.155.4.31281 > comp3143Winter2025.ssh: Flags [.], ack 10536, win 15358, length 0
+20:53:12.022840 IP comp3143Winter2025.ssh > 45.145.155.4.31281: Flags [P.], seq 11072:11340, ack 1, win 501, length 268
+20:53:12.047680 IP 45.145.155.4.31281 > comp3143Winter2025.ssh: Flags [.], ack 10804, win 15358, length 0
+20:53:12.126833 IP comp3143Winter2025.ssh > 45.145.155.4.31281: Flags [P.], seq 11340:11608, ack 1, win 501, length 268
+20:53:12.146861 IP 45.145.155.4.31281 > comp3143Winter2025.ssh: Flags [.], ack 11072, win 15358, length 0
+20:53:12.230864 IP comp3143Winter2025.ssh > 45.145.155.4.31281: Flags [P.], seq 11608:11876, ack 1, win 501, length 268
+20:53:12.255232 IP 45.145.155.4.31281 > comp3143Winter2025.ssh: Flags [.], ack 11340, win 15358, length 0
+20:53:12.334728 IP comp3143Winter2025.ssh > 45.145.155.4.31281: Flags [P.], seq 11876:12144, ack 1, win 501, length 268
+20:53:12.359129 IP 45.145.155.4.31281 > comp3143Winter2025.ssh: Flags [.], ack 11608, win 15358, length 0
+20:53:12.438793 IP comp3143Winter2025.ssh > 45.145.155.4.31281: Flags [P.], seq 12144:12412, ack 1, win 501, length 268
+20:53:12.461942 IP 45.145.155.4.31281 > comp3143Winter2025.ssh: Flags [.], ack 11876, win 15358, length 0
+20:53:12.542785 IP comp3143Winter2025.ssh > 45.145.155.4.31281: Flags [P.], seq 12412:12680, ack 1, win 501, length 268
+20:53:12.566696 IP 45.145.155.4.31281 > comp3143Winter2025.ssh: Flags [.], ack 12144, win 15358, length 0
+20:53:12.646785 IP comp3143Winter2025.ssh > 45.145.155.4.31281: Flags [P.], seq 12680:12948, ack 1, win 501, length 268
+20:53:12.670436 IP 45.145.155.4.31281 > comp3143Winter2025.ssh: Flags [.], ack 12412, win 15358, length 0
+20:53:12.750821 IP comp3143Winter2025.ssh > 45.145.155.4.31281: Flags [P.], seq 12948:13216, ack 1, win 501, length 268
+20:53:12.772276 IP 45.145.155.4.31281 > comp3143Winter2025.ssh: Flags [.], ack 12680, win 15358, length 0
+20:53:12.811731 IP comp3143Winter2025.ssh > 218.92.0.156.30366: Flags [P.], seq 3078397960:3078398040, ack 3230277051, win 503, options [nop,nop,TS val 2703130917 ecr 1411402422], length 80
+20:53:12.854982 IP comp3143Winter2025.ssh > 45.145.155.4.31281: Flags [P.], seq 13216:13484, ack 1, win 501, length 268
+20:53:12.858213 IP comp3143Winter2025.ssh > 45.145.155.4.31281: Flags [P.], seq 13484:13712, ack 1, win 501, length 228
+20:53:12.874918 IP 45.145.155.4.31281 > comp3143Winter2025.ssh: Flags [.], ack 12948, win 15358, length 0
+20:53:12.958785 IP comp3143Winter2025.ssh > 45.145.155.4.31281: Flags [P.], seq 13712:14100, ack 1, win 501, length 388
+20:53:12.983214 IP 45.145.155.4.31281 > comp3143Winter2025.ssh: Flags [.], ack 13216, win 15358, length 0
+20:53:13.036840 IP 218.92.0.156.30366 > comp3143Winter2025.ssh: Flags [P.], seq 1:97, ack 80, win 263, options [nop,nop,TS val 1411403336 ecr 2703130917], length 96
+20:53:13.036898 IP comp3143Winter2025.ssh > 218.92.0.156.30366: Flags [.], ack 97, win 503, options [nop,nop,TS val 2703131142 ecr 1411403336], length 0
+20:53:13.062724 IP comp3143Winter2025.ssh > 45.145.155.4.31281: Flags [P.], seq 14100:14688, ack 1, win 501, length 588
+20:53:13.086688 IP 45.145.155.4.31281 > comp3143Winter2025.ssh: Flags [.], ack 13484, win 15358, length 0
+20:53:13.090321 IP 45.145.155.4.31281 > comp3143Winter2025.ssh: Flags [.], ack 13712, win 15358, length 0
+20:53:13.166819 IP comp3143Winter2025.ssh > 45.145.155.4.31281: Flags [P.], seq 14688:15060, ack 1, win 501, length 372
+20:53:13.186886 IP 45.145.155.4.31281 > comp3143Winter2025.ssh: Flags [.], ack 14100, win 15358, length 0
+20:53:13.270783 IP comp3143Winter2025.ssh > 45.145.155.4.31281: Flags [P.], seq 15060:15328, ack 1, win 501, length 268
+20:53:13.295003 IP 45.145.155.4.31281 > comp3143Winter2025.ssh: Flags [.], ack 14688, win 15358, length 0
+20:53:13.374740 IP comp3143Winter2025.ssh > 45.145.155.4.31281: Flags [P.], seq 15328:15596, ack 1, win 501, length 268
+20:53:13.396041 IP 45.145.155.4.31281 > comp3143Winter2025.ssh: Flags [.], ack 15060, win 15358, length 0
+20:53:13.478796 IP comp3143Winter2025.ssh > 45.145.155.4.31281: Flags [P.], seq 15596:15864, ack 1, win 501, length 268
+20:53:13.503966 IP 45.145.155.4.31281 > comp3143Winter2025.ssh: Flags [.], ack 15328, win 15358, length 0
+20:53:13.582754 IP comp3143Winter2025.ssh > 45.145.155.4.31281: Flags [P.], seq 15864:16132, ack 1, win 501, length 268
+20:53:13.603039 IP 45.145.155.4.31281 > comp3143Winter2025.ssh: Flags [.], ack 15596, win 15358, length 0
+20:53:13.686722 IP comp3143Winter2025.ssh > 45.145.155.4.31281: Flags [P.], seq 16132:16400, ack 1, win 501, length 268
+20:53:13.706967 IP 45.145.155.4.31281 > comp3143Winter2025.ssh: Flags [.], ack 15864, win 15358, length 0
+20:53:13.790800 IP comp3143Winter2025.ssh > 45.145.155.4.31281: Flags [P.], seq 16400:16668, ack 1, win 501, length 268
+20:53:13.813387 IP 45.145.155.4.31281 > comp3143Winter2025.ssh: Flags [.], ack 16132, win 15358, length 0
+20:53:13.894754 IP comp3143Winter2025.ssh > 45.145.155.4.31281: Flags [P.], seq 16668:16936, ack 1, win 501, length 268
+20:53:13.915940 IP 45.145.155.4.31281 > comp3143Winter2025.ssh: Flags [.], ack 16400, win 15358, length 0
+20:53:13.998803 IP comp3143Winter2025.ssh > 45.145.155.4.31281: Flags [P.], seq 16936:17204, ack 1, win 501, length 268
+20:53:14.022466 IP 45.145.155.4.31281 > comp3143Winter2025.ssh: Flags [.], ack 16668, win 15358, length 0
+20:53:14.102755 IP comp3143Winter2025.ssh > 45.145.155.4.31281: Flags [P.], seq 17204:17472, ack 1, win 501, length 268
+20:53:14.124063 IP 45.145.155.4.31281 > comp3143Winter2025.ssh: Flags [.], ack 16936, win 15358, length 0
+20:53:14.206742 IP comp3143Winter2025.ssh > 45.145.155.4.31281: Flags [P.], seq 17472:17740, ack 1, win 501, length 268
+20:53:14.227853 IP 45.145.155.4.31281 > comp3143Winter2025.ssh: Flags [.], ack 17204, win 15358, length 0
+20:53:14.310801 IP comp3143Winter2025.ssh > 45.145.155.4.31281: Flags [P.], seq 17740:18008, ack 1, win 501, length 268
+20:53:14.331334 IP 45.145.155.4.31281 > comp3143Winter2025.ssh: Flags [.], ack 17472, win 15358, length 0
+20:53:14.414776 IP comp3143Winter2025.ssh > 45.145.155.4.31281: Flags [P.], seq 18008:18276, ack 1, win 501, length 268
+20:53:14.435466 IP 45.145.155.4.31281 > comp3143Winter2025.ssh: Flags [.], ack 17740, win 15358, length 0
+20:53:14.518747 IP comp3143Winter2025.ssh > 45.145.155.4.31281: Flags [P.], seq 18276:18544, ack 1, win 501, length 268
+20:53:14.539114 IP 45.145.155.4.31281 > comp3143Winter2025.ssh: Flags [.], ack 18008, win 15358, length 0
+20:53:14.622753 IP comp3143Winter2025.ssh > 45.145.155.4.31281: Flags [P.], seq 18544:18812, ack 1, win 501, length 268
+20:53:14.644754 IP 45.145.155.4.31281 > comp3143Winter2025.ssh: Flags [.], ack 18276, win 15358, length 0
+20:53:14.726765 IP comp3143Winter2025.ssh > 45.145.155.4.31281: Flags [P.], seq 18812:19080, ack 1, win 501, length 268
+20:53:14.751158 IP 45.145.155.4.31281 > comp3143Winter2025.ssh: Flags [.], ack 18544, win 15358, length 0
+20:53:14.830807 IP comp3143Winter2025.ssh > 45.145.155.4.31281: Flags [P.], seq 19080:19348, ack 1, win 501, length 268
+20:53:14.850791 IP 45.145.155.4.31281 > comp3143Winter2025.ssh: Flags [.], ack 18812, win 15358, length 0
+20:53:14.934768 IP comp3143Winter2025.ssh > 45.145.155.4.31281: Flags [P.], seq 19348:19616, ack 1, win 501, length 268
+20:53:14.957514 IP 45.145.155.4.31281 > comp3143Winter2025.ssh: Flags [.], ack 19080, win 15358, length 0
+20:53:15.038724 IP comp3143Winter2025.ssh > 45.145.155.4.31281: Flags [P.], seq 19616:19884, ack 1, win 501, length 268
+20:53:15.059015 IP 45.145.155.4.31281 > comp3143Winter2025.ssh: Flags [.], ack 19348, win 15358, length 0
+20:53:15.142790 IP comp3143Winter2025.ssh > 45.145.155.4.31281: Flags [P.], seq 19884:20152, ack 1, win 501, length 268
+20:53:15.162934 IP 45.145.155.4.31281 > comp3143Winter2025.ssh: Flags [.], ack 19616, win 15358, length 0
+20:53:15.246747 IP comp3143Winter2025.ssh > 45.145.155.4.31281: Flags [P.], seq 20152:20420, ack 1, win 501, length 268
+20:53:15.266894 IP 45.145.155.4.31281 > comp3143Winter2025.ssh: Flags [.], ack 19884, win 15358, length 0
+^C
+139 packets captured
+142 packets received by filter
+0 packets dropped by kernel
+root@comp3143Winter2025:~# 
