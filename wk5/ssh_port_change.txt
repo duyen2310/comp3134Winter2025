@@ -1,0 +1,2 @@
+root@comp3143Winter2025:~# sudo service ssh restart
+root@comp3143Winter2025:~# service apache2 restart
