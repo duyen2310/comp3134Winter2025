@@ -1,0 +1,9 @@
+
+PART B
+
+In this screenshot we can see the post request for the login form made through http. On the highlighted orange part on the right we can see that among other sensitive information we can also see our username and password, which is obviously very sensitive information, which anyone that is sniffing the packets can access.
+
+PART C
+
+In the previous example of logging in through an unsecure http website, we saw how easy it is for an account's sensitive information to be exposed. Had the website been a https one and encrypted through the use of an ssl/tls certificate however, the above would be impossible to do. That same log in procedure would be encrypted, and only the sender and receiver would be able to decrypt the sensitive information. This means that even if the packet was somehow sniffed, without the necessary decryption key (which only the 2 parties mentioned above have) the information would be useless.
+It is through these encryption methods that the information we pass to and receive from messages is secure and does not put us in constant danger
