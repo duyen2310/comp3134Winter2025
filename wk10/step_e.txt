@@ -1,0 +1,3 @@
+Restricting access before the html directory using realpath()
+Checking if a file exists using file_exists()
+Bonus: Preventing filenames using strpos($path, '.') !== false

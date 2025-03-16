@@ -1,0 +1,19 @@
+Warning:  scandir(hello): Failed to open directory: No such file or directory in /var/www/html/directory_traversal_part1.php on line 8
+
+
+
+Warning:  scandir(): (errno 2): No such file or directory in /var/www/html/directory_traversal_part1.php on line 8
+
+
+What you see on the browser (the issue):
+
+The page displays warnings about scandir() failing to open a directory.
+The error message indicates that the directory "hello" does not exist.
+
+
+
+What sensitive information is given by this page:
+
+The error message exposes details about the internal file structure of the web server.
+It reveals that the script is located in /var/www/html/, which could help an attacker understand the server setup.
+It confirms that scandir() is being used, hinting at a possible directory traversal vulnerability.

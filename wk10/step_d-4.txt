@@ -1,0 +1,17 @@
+What You See on the Browser
+The page displays a list of system directories, revealing internal server folder names.
+This confirms that the script allows unrestricted access to the scandir() function without validation, leading to a directory traversal vulnerability.
+The script is exposing directories outside the intended web root.
+
+
+
+What Sensitive Information Is Given by This Page
+Server Directory Structure:
+
+The output lists critical system directories like backups, cache, log, mail, tmp, and www.
+An attacker now knows the server environment and where sensitive files might be stored.
+Potential Security Risks:
+
+backups/ could contain backup files that may include database dumps, configuration files, or source code.
+log/ might store system and application logs that could reveal credentials or system errors.
+tmp/ is often used for temporary files and session data, which an attacker could attempt to manipulate.

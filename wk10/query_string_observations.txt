@@ -1,0 +1,3 @@
+1. It shows a  lots of cookies
+2. It does not save anything, the brower pop up an alert about invalid website
+3.

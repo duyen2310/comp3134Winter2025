@@ -1,0 +1,16 @@
+What You See on the Browser (The Issue)
+The page displays a list of directories, including html, which suggests that the script is scanning a restricted system directory.
+This indicates that the script is still vulnerable to directory traversal attacks, but access is somewhat limited compared to the previous issue.
+
+
+
+
+
+What Sensitive Information Is Given by This Page
+Web Root Directory Exposure:
+
+The presence of html/ suggests this is the web root directory (/var/www/ or similar).
+Attackers now know the location of public files and could attempt to access sensitive configurations (e.g., config.php).
+Potential Directory Traversal Attack:
+
+If an attacker can manipulate the query string, they may attempt ../../ to navigate outside the web directory and access system files.
