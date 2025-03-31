@@ -1,0 +1,24 @@
+## Task 1
+
+Domains
+
+1. https://discord.com
+Cookie
+Name	    | Value					| Path
+__stripe_mid  15d38d2b-ac2e-458b-bd1b-28538b70462a0a1f30  /
+
+2. https://cloud.mongodb.com
+Name   | Value | Path
+baas_ua  1       /
+
+3. https://pinetools.com
+Name | Value								  | Path
+IDE    AHWqTUlB0h9GUlqUpb8eZwUP2e8wrYK1Kaofzdj0NjWBRxrGKJnQ30gMplQUYASGRw8  /
+
+4. https://www.reddit.com/
+Name | Value		| Path
+HSID   AQFLB1ynv31NshsDa  /
+
+5. https://learn.georgebrown.ca/d2l/home
+Name	| Value																   | Path
+IDMSESSID AA7610BB275E27D90A158D984732DD256FF2009AE802930ED17C180143448612057B11C51887EF26FA2B82E55190557C7EF8F2D92B929DBE51FB38BCE871A079   /

@@ -1,0 +1,38 @@
+Task 2
+
+Domians
+
+1. https://www.instagram.com/
+
+hidden fields
+-> name : logging_event_step, value : home_page
+-> name : aymh_profile_loaded_count, value : 2
+-> name : jazoest, value: 2953
+-> name : lsd, value: AVpuH_VUPJQ
+
+Method : POST
+
+
+2. https://facebook.com/
+
+hidden fields
+-> name : jazoest, value : 2834
+-> name : lsd, value : AVrL1_EO6RA
+-> name : login_source, value : comet_headerless_login
+-> name : shared_prefs_data, value : _6ltg
+
+3. https://amazon.com/
+ 
+hidden fields
+-> name : dropdown-selection, value : add-new
+-> name : dropdown-selection-ubb, value : add-new
+-> name : glow-validation-token, value : hAlWBJO/7ntTStvaAQsDDl0QkL0XO3c/DdLBA/ta4GNLAAAAAGfcQ1IAAAAB
+-> name : glow-destination-type, value : COUNTRY
+
+4. https://accounts.google.com
+
+hidden fields
+-> name : usi, value : S-1861950705:1742487957938398
+-> name : domain, value : YgOFye
+-> name : region, value : CA
+-> name : ct, value : SBlSod

