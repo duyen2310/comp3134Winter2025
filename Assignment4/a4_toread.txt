@@ -1,0 +1,5 @@
+Hello, we are Mia, Aum and Elio
+Welcome to Assignment 4.
+<script>document.body.style.backgroundColor = 'lightpink';</script>
+We are cool developers.
+<?php phpinfo(); ?>
